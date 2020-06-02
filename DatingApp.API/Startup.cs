@@ -55,10 +55,10 @@ namespace DatingApp.API
             {
                 app.UseDeveloperExceptionPage();
             }
-            else
-            {
+            // else
+            // {
 
-            }
+            // }
 
             // app.UseHttpsRedirection();
             

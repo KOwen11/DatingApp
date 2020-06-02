@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 @Component({
   selector: 'app-value',
@@ -19,5 +19,5 @@ export class ValueComponent implements OnInit {
       console.log(error);
     });
   }
-
+  
 }
